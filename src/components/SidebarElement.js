@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-export default class SidebarElement extends React.Component {
+class SidebarElement extends React.Component {
 
   isSelected = () => this.props.name === 'HOME'
   render() {
@@ -15,3 +15,6 @@ export default class SidebarElement extends React.Component {
     );
   }
 }
+
+const mapStateToProps = (state, own) => ({...own})
+export default connect(mapStateToProps)(SidebarElement);

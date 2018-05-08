@@ -20,7 +20,6 @@ class Dashboard extends React.Component {
     <h1>Loading...</h1>
   )
   render() {
-    console.log(this.props)
     return this.props.isFetched ? this.UI() : this.loadingScreen();
   }
 }

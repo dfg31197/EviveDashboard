@@ -137,6 +137,7 @@ body {
   padding: 15px !important;
   margin: 5px !important;
   border-radius: 5px;
+  cursor: pointer;
 }
 .ev-dashboard-Sidebar__options_container-selected{
   background-color: #787878;

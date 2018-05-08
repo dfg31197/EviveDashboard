@@ -17,7 +17,6 @@ class SideBar extends React.Component {
   }
   render() {
     const { data } = this.props.state.metaInfo;
-    console.log(data)
     return (
       <div className={`ev-dashboard-Sidebar_container ${this.props.misc.isSideBarToggled && "ev-dashboard-Sidebar_container_slideOut"} ${!this.props.misc.isSideBarToggled && this.props.misc.isSideBarExtended ? "ev-dashboard-Sidebar_container_slideOut" : "ev-dashboard-Sidebar_container_slideIn" }`}>
         <div className="ev-dashboard-Sidebar__hamburger_control">

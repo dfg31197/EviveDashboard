@@ -1,8 +1,9 @@
 import React from 'react';
+import { METADATA } from '../store/static/meta-data.js';
 
 class CampaignCarousel extends React.Component {
   render() {
-    return <img alt="anasfn" src="http://longwallpapers.com/Desktop-Wallpaper/chicago-wallpapers-for-iphone-For-Desktop-Wallpaper.jpg" />;
+    return <img alt="Evive Carousel" src={METADATA.PLACEHOLDER} />;
   }
 }
 

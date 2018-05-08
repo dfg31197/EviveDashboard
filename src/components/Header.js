@@ -16,7 +16,7 @@ class Header extends React.Component {
       <div className="ev-dashboard-Header__container">
         <div className={`ev-dashboard-Header__leftFloater ${this.props.misc.isSideBarToggled && "ev-dashboard-Header__leftFloater__shift"}`}>
           {this.props.misc.isSideBarToggled ?
-            <div className="ev-dashboard-Header__hamburger-icon" onClick={this.toggleSidebar}><img className="ev-dashboard-Header__ham-icon-img" src="https://59b602507414a6d288cf-98a1a17df509e6abbdfa88e2a08a0e33.ssl.cf1.rackcdn.com/static_resources/misc/harmburger.gif"/></div>
+            <div className="ev-dashboard-Header__hamburger-icon" onClick={this.toggleSidebar}><img className="ev-dashboard-Header__ham-icon-img" src={METADATA.HAMBURGER_LEFT}/></div>
           : <img alt="Evive Logo" className="ev-dashboard-Header__logo" src={METADATA.EVIVE_LOGO} />}
         </div>
         <div className="ev-dashboard-Header__rightFloater ev-dashboard-Header__info">
