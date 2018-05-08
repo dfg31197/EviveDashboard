@@ -4,7 +4,7 @@ import { METADATA } from '../store/static/meta-data.js';
 import { MiscActions } from '../actions/Misc.js';
 class Header extends React.Component {
   logout = () => {
-    this.props.history.push('/logout');
+    this.props.own.history.push('/logout');
   }
 
   toggleSidebar = () => {

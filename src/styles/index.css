@@ -125,11 +125,36 @@ body {
   background-color: white;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2) !important;
 }
-.ev-dashboard-Sidebar_container:hover{
 
-}
 .ev-dashboard-Sidebar__options_name{
   margin-top: 5px !important;
+  display: flex;
+}
+
+.ev-dashboard-Sidebar__options_container{
+  margin-top: 5px !important;
+  display: flex;
+  padding: 15px !important;
+  margin: 5px !important;
+  border-radius: 5px;
+}
+.ev-dashboard-Sidebar__options_container-selected{
+  background-color: #787878;
+  color: white !important;
+}
+
+.ev-dashboard-Sidebar__options_container-icon{
+  margin-right: 15px !important;
+  font-size: 30px;
+}
+.ev-dashboard-Sidebar__options_container:hover{
+background-color: #CC2D30 !important;
+color:white !important;
+}
+
+.ev-dashboard-Sidebar__options_name span{
+  margin-left: 9px !important;
+  padding-top: 20px !important;
 }
 .ev-dashboard-Sidebar__options_name_firstLetter{
   font-size: 15px;
@@ -139,6 +164,8 @@ body {
   text-align: center;
   height: 60px;
   max-width: 60px;
+  min-width: 60px;
+  margin-left: 2px !important;
   padding-top: 20px !important;
 }
 
@@ -305,4 +332,54 @@ input,.ui.label{
   border: 7px solid #efefef;
   background-color: white;
   padding-top: 35vh;
+}
+
+
+
+
+
+
+.box-outer {
+  width: 300px;
+  height: 120px;
+  padding: 15px 30px;
+  background: rgba(237, 236, 236, 0.72);
+  border: 3px solid rgb(89, 67, 128);
+  position: relative;
+  top:0;
+  left:0;
+  border-right: 20px solid rgb(89, 67, 128);
+}
+.box-outer:before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -4px;
+  border-bottom: 29px solid rgb(255, 252, 252);
+  border-right: 29px solid #594380;
+  border-top: 28px solid #FFF;
+  height: 66%;
+  width: 0;
+}
+.box-outer:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -13%;
+  border-top: 29px solid white;
+  border-left: 29px solid #594380;
+  border-bottom: 28px solid #FFF;
+  width: 0;
+  height: 66%;
+}
+.box-outer .right-text {
+  position: absolute;
+  right: -22%;
+  color: white;
+  font-size: 20px;
+  top: 40%;
+  z-index: 10;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
 }

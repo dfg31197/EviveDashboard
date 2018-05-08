@@ -12,7 +12,7 @@ class Dashboard extends React.Component {
 
   UI = () => (
     <div>
-      <Header clientLogo={this.props.data.clientLogo} />
+      <Header clientLogo={this.props.data.clientLogo} history={this.props.history}/>
       <SideBar data={this.props.data} history={this.props.history} />
     </div>
   )
