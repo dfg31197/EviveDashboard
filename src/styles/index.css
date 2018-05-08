@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #efefef;
+}
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.ev-dashboard-LoginForm__clientLogo{
+  max-width: 200px;
+  max-height: 100px;
+  position: absolute;
+  top:17%;
+  left: 25%;
+  z-index: 1;
+}
+
+.ev-dashboard-DashboardFooter__footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    min-width: 96vw;
+    background-color: #fff;
+    border: 1px solid #d4d4d5;
+    min-height: 46px;
+    padding-top:15px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.ev-dashboard-DashboardFooter__footer_left{
+    float:left;
+}
+
+.ev-dashboard-DashboardFooter__footer_right{
+    float:right;
+}
+.ev-dashboard-DashboardFooter__footer_right a{
+    margin-right: 15px !important;
+}
+
+.ev-dashboard-content__favorites_heading{
+  max-height: 15px !important;
+    padding-left: 20px !important;
+    color: #62707C;
+    font-size: 16px !important;
+}
+.ev-dashboard-CardMFS__grid{
+  text-align: center;
+  margin-left: 50px;
+}
+.ev-dashboard-Content__carousel_container{
+  max-height: 30vh;
+  max-width: 40vw;
+  min-width: 56.5vw;
+  min-height: 40vh;
+}
+.ev-dashboard-Content__carousel_container img{
+    min-height: 63vh;
+}
+
+.ev-dashboard-login__evive_logo{
+  position: absolute;
+  top:25px;
+  left: 25px;
+  z-index: 1;
+  max-width: 20vw;
+  max-height: 3vh;
+}
+
+
+.ev-dashboard-login__login-img{
+  max-width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+.utils-padding{
+  padding: 15px !important;
+}
+.muted-text{
+  opacity: 0.3;
+}
+.ev-dashboard-LoginForm__login_button{
+  padding: 15px !important;
+}
+.ev-dashboard-LoginForm__formFields{
+  position: absolute;
+  top:30%;
+  left:10%;
+  font-size: 15px;
+}
+
+.ev-dashboard-Header__container{
+  position: fixed;
+  z-index: 2;
+  top:0;
+  left:65px;
+  right: 0;
+  box-sizing: border-box;
+  width:95.4vw;
+  background-color: white;
+  min-height: 65px;
+  max-height: 65px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2) !important;
+}
+.ev-dashboard-Sidebar__hamburger_control{
+  border-bottom: 1px solid #efefef;
+  height: 65px;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 23.5px !important;
+  cursor: pointer;
+}
+.ev-dashboard-Sidebar_container{
+  z-index: 5;
+  white-space: nowrap;
+  position: fixed;
+  left: 0;
+  min-width: 65px;
+  max-width: 65px;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: white;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2) !important;
+}
+
+.ev-dashboard-Sidebar__options_name{
+  margin-top: 5px !important;
+  display: flex;
+}
+
+.ev-dashboard-Sidebar__options_container{
+  margin-top: 5px !important;
+  display: flex;
+  padding: 15px !important;
+  margin: 5px !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ev-dashboard-Sidebar__options_container-selected{
+  background-color: #787878;
+  color: white !important;
+}
+
+.ev-dashboard-Sidebar__options_container-icon{
+  margin-right: 15px !important;
+  font-size: 30px;
+}
+.ev-dashboard-Sidebar__options_container:hover{
+background-color: #CC2D30 !important;
+color:white !important;
+}
+
+.ev-dashboard-Sidebar__options_name span{
+  margin-left: 9px !important;
+  padding-top: 20px !important;
+}
+.ev-dashboard-Sidebar__options_name_firstLetter{
+  font-size: 15px;
+  color:white;
+  background-color: #787878;
+  border-radius: 100px;
+  text-align: center;
+  height: 60px;
+  max-width: 60px;
+  min-width: 60px;
+  margin-left: 2px !important;
+  padding-top: 20px !important;
+}
+
+.ev-dashboard-content__dashboard_content{
+  position: relative;
+  top:65px;
+  left: 65px;
+  width:95%;
+  min-height: 100vh;
+  transition: 0.4s all;
+  padding: 28px !important;
+}
+
+.ev-dashboard-content__dashboard_content_smaller{
+  position: relative;
+  top:65px;
+  left: 220px;
+  width:95%;
+  min-height: 100vh;
+  transition: 0.4s all;
+  padding: 28px !important;
+}
+
+.ev-dashboard-CardCR__container{
+  margin: 20px !important;
+    background-color: white !important;
+        box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+        border-radius: 3px;
+        display: relative;
+}
+
+.ev-dashboard-content__card-grid{
+  max-height: 546px;
+}
+.ev-dashboard-CardCR__CR_card_content{
+  margin: 12% 5% 0px 5% !important;
+  text-align: center;
+
+}
+
+.ev-dashboard-CardCR__CR_cards_button, .ev-dashboard-CardMFS__cards_button{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0px 0px 5px 5px !important;
+  min-height: 40px !important;
+      background-color: rgb(106, 109, 110) !important;
+      color:#fff !important;
+}
+.ev-dashboard-CardMFS__cards_button{
+  min-height: 30px !important;
+}
+.ev-dashboard-CardCR__CR_card_content_title{
+  font-size: 16px;
+      font-weight: 700;
+      margin: 8px 0 !important;
+      color: #62707C;
+}
+
+.ev-dashboard-CardCR__CR_cards_icon{
+  max-width: 35px;
+  max-height: 35px;
+}
+.ev-dashboard-CardMFS__card{
+  background-color: white;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin: 5px !important;
+  min-height: 17vh;
+  max-height: 17vh;
+  text-align: center !important;
+  border-radius: 5px;
+  cursor: move;
+}
+
+
+.ev-dashboard-LoginForm__logout_message{
+  margin-top: 30px !important;
+  padding: 15px !important;
+}
+.ev-dashboard-CardMFS__cards_icon{
+  max-width: 50px;
+  max-height: 50px;
+}
+.ev-dashboard-CardMFS__card_content_icon{
+  margin-top: 30px !important;
+}
+
+.ev-dashboard-Sidebar_container_slideIn{
+  min-width: 65px;
+  transition:0.4s all;
+}
+
+.ev-dashboard-Sidebar_container_slideOut{
+  min-width: 220px;
+  transition:0.4s all;
+}
+.ev-dashboard-Header__logo{
+  margin-top: 15px !important;
+  margin-left: 15px !important;
+}
+.ev-dashboard-Header__hamburger-icon{
+  margin-top: 20px !important;
+  cursor: pointer;
+}
+.ev-dashboard-Header__imgDiv{
+  padding: 10px !important;
+}
+.ev-dashboard-Header__info{
+  display: flex;
+}
+
+.ev-dashboard-Header__info span{
+  margin-top: 25px !important;
+}
+
+.ev-dashboard-Header__logout_icon{
+  background-color: #fff !important;
+  padding:15px !important;
+  padding-top: 20px !important;
+  font-size: 20px !important;
+}
+.ev-dashboard-Header__logout_icon:hover{
+  background-color: #efefef !important;
+}
+
+.ev-dashboard-Header__leftFloater{
+  float:left;
+}
+
+.ev-dashboard-Header__ham-icon-img{
+  width: 35px;
+  height: 16px;
+}
+
+.ev-dashboard-Header__leftFloater__shift{
+  margin-left: 180px !important;
+  font-size: 30px;
+  transition: 0.4s all;
+}
+.ev-dashboard-Header__rightFloater{
+  float:right;
+  max-height: 65px;
+}
+
+@media only screen and (max-width: 990px) {
+    .ev-dashboard-LoginForm__clientLogo {
+      left:25%;
+
+    }
+    .labels{
+      font-size: 18px !important;
+    }
+}
+
+.labels{
+  font-size: 12px;
+}
+input,.ui.label{
+  margin: 5px 0px !important;
+  padding: 8px !important;
+}
+.ev-dashboard-LoginForm__form{
+  min-height: 100vh;
+  border: 7px solid #efefef;
+  background-color: white;
+  padding-top: 35vh;
+}
+
+
+
+
+
+
+.box-outer {
+  width: 300px;
+  height: 120px;
+  padding: 15px 30px;
+  background: rgba(237, 236, 236, 0.72);
+  border: 3px solid rgb(89, 67, 128);
+  position: relative;
+  top:0;
+  left:0;
+  border-right: 20px solid rgb(89, 67, 128);
+}
+.box-outer:before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -4px;
+  border-bottom: 29px solid rgb(255, 252, 252);
+  border-right: 29px solid #594380;
+  border-top: 28px solid #FFF;
+  height: 66%;
+  width: 0;
+}
+.box-outer:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -13%;
+  border-top: 29px solid white;
+  border-left: 29px solid #594380;
+  border-bottom: 28px solid #FFF;
+  width: 0;
+  height: 66%;
+}
+.box-outer .right-text {
+  position: absolute;
+  right: -22%;
+  color: white;
+  font-size: 20px;
+  top: 40%;
+  z-index: 10;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
